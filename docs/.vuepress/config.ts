@@ -4,7 +4,7 @@ import theme from "./theme.js";
 
 
 export default defineUserConfig({
-  base: "/emsrs.doc/",
+  base: "/",
 
   locales: {
     "/": {
