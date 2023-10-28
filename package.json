@@ -4,6 +4,7 @@
   "description": "emsrs'doc",
   "license": "MIT",
   "type": "module",
+  "packageManager": "pnpm@8.10.0",
   "scripts": {
     "docs:build": "vuepress build docs",
     "docs:clean-dev": "vuepress dev docs --clean-cache",
