@@ -1,5 +1,5 @@
 ---
-title: 主要功能与配置演示
+title: 案例展示
 index: false
 icon: laptop-code
 category:
@@ -15,3 +15,5 @@ category:
 - [禁用展示](disable.md)
 
 - [加密展示](encrypt.md)
+
+- [幻灯片](slides.md)
