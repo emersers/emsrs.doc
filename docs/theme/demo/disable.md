@@ -10,7 +10,7 @@ tag:
 
 actions:
   - text: 返回
-    link: ./themefile/demo/
+    link: ./theme/demo/
     type: primary
 
 navbar: false
