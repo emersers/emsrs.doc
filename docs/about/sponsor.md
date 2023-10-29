@@ -1,9 +1,9 @@
 ---
 home: false
-title: 支持这个项目
+title: 支持我
 ---
 
-如果这个项目帮给您带来了帮助，或者是想支持我，可以通过以下任意方式支持我：
+如果你喜欢我的开源项目，并愿意给予支持的话，欢迎通过以下任意方式支持我：
 
 > 点个Star或者分享 [emsrs.doc:rocket:](https://github.com/emersers/emsrs.doc)
 
