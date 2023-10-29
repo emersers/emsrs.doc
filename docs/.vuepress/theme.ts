@@ -6,8 +6,8 @@ export default hopeTheme({
   hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mister-hope.com",
+    name: "emsrs",
+    url: "https://emsrs.site",
   },
 
   iconAssets: "fontawesome-with-brands",
@@ -40,6 +40,7 @@ export default hopeTheme({
         editLink: "编辑",
       },
     },
+    
 
     "/en/": {
       // navbar
@@ -57,12 +58,12 @@ export default hopeTheme({
       },
     },
 
-  },
+      },
 
   encrypt: {
     config: {
-      "/demo/encrypt.html": ["1234"],
-      "/en/demo/encrypt.html": ["1234"],
+      "/theme/demo/encrypt.html": ["1234"],
+      "/en/theme/demo/encrypt.html": ["1234"],
     },
   },
 
