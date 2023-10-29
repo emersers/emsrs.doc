@@ -6,7 +6,7 @@ export const zhNavbar = navbar([
     text:"主题相关",
     icon: "lightbulb",
     link: "https://theme-hope.vuejs.press/zh/",
-    prefix: "/themefile/README",
+    prefix: "/themefile/",
     children: [
       {
         text: "V2 文档",
