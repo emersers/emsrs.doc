@@ -17,7 +17,7 @@ title: 支持我
 | :---: | :---: | :---: |
 | <img :src="$withBase('/assets/qrcode/Wechat_500.png')" alt="赞赏码" width=180> | <img :src="$withBase('/assets/qrcode/Wechat_sponsor_500.png')" alt="Wechat QRcode" width=180>| <img :src="$withBase('/assets/qrcode/alipay_500.png')" alt="Alipay QRcode" width=180> |
 
-## 成为赞助商
+<!-- ## 成为赞助商
 
 成为赞助商，即可将您的品牌LOGO及标语同时展示在：
 
@@ -28,7 +28,7 @@ title: 支持我
 - 官网所有文档页左侧边栏顶部
 
 
-[联系方式](https://xugaoyi.com/about/#%E8%81%94%E7%B3%BB)
+[联系方式](https://xugaoyi.com/about/#%E8%81%94%E7%B3%BB) -->
 
 ## 公众号
 
