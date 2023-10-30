@@ -4,27 +4,27 @@ export const zhNavbar = navbar([
   "/",
   {
     text: "笔记",
-    icon: "book",
+    icon: "font-awesome",
     link: "/note/",
   },
   {
-    text: "Bot相关",
-    icon: "lightbulb",
+    text: "code",
+    icon: "code",
+    link: "/code/",
+  },
+  {
+    text: "Bot",
+    icon: "robot",
     link: "/bot/",
   },
   {
     text: "网址导航",
-    icon: "lightbulb",
+    icon: "circle-nodes",
     link: "/sites/",
   },
   {
-    text: "vercel",
-    icon: "laptop-code",
-    link: "https://vercel.com/emersers/emsrsdoc/",
-  },
-  {
     text: "APP",
-    // icon: "iconfont-select",
+    icon: "share-from-square",
     link: "https://app.emsrs.site",
   },
 ]);
