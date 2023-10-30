@@ -14,6 +14,6 @@ actions:
     link: ./note/
     type: primary
 
-copyright: © 2023 emersers
-footer: <a href="https://emsrs.site">emsrs.site</a> | <a href="/about/">about</a>
+copyright: © 2023 <a href="https://emsrs.site" target="_blank">emsrs</a>
+footer: <a href="https://vercel.com/emersers/emsrsdoc/" target="_blank">vercel</a> | <a href="/about/">关于</a>
 ---
