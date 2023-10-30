@@ -1,6 +1,6 @@
 ---
 title: 随手笔记
-icon: icon-code
+icon: pen-to-square
 category:
  - vscode
 ---
