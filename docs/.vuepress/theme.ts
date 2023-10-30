@@ -9,9 +9,11 @@ export default hopeTheme({
     name: "emsrs",
     url: "https://emsrs.site",
   },
+  // 关键词: "iconfont", "iconify", "fontawesome", "fontawesome-with-brands"
+  iconAssets: "fontawesome",
+  // iconPrefix: "iconfont icon-",
 
-  iconAssets: "fontawesome-with-brands",
-  
+  fullscreen: true,
 
   logo: "/logo.svg",
 
@@ -31,34 +33,36 @@ export default hopeTheme({
       // sidebar
       sidebar: zhSidebar,
 
-      footer: "emsrs.doc",
-
+      // footer
       displayFooter: true,
-
+      copyright: "copyright© 2023 <a href=\"https://emsrs.site\" target=\"_blank\">emsrs</a>",
+      footer: "<a href=\"/about/\">关于</a>",
+      
       // page meta
       metaLocales: {
         editLink: "编辑",
       },
     },
     
-
+    
     "/en/": {
       // navbar
       navbar: enNavbar,
-
+      
       // sidebar
       sidebar: enSidebar,
-
-      footer: "Default footer",
-
+      
+      // footer
       displayFooter: true,
+      copyright: "copyright© 2023 <a href=\"https://emsrs.site\" target=\"_blank\">emsrs</a>",
+      footer: "<a href=\"/about/\">about</a>",
 
       metaLocales: {
         editLink: "Edit",
       },
     },
 
-      },
+  },
 
   encrypt: {
     config: {
@@ -68,6 +72,10 @@ export default hopeTheme({
   },
 
   plugins: {
+    copyright: {
+      author: "emsrs @2023",
+      license: "MIT",
+    },
     // You should generate and use your own comment service
     comment: {
       provider: "Giscus",
