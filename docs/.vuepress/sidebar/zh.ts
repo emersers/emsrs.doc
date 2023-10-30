@@ -25,7 +25,7 @@ export const zhSidebar = sidebar({
       children: "structure",
     },
   ],
-  "/codes/":
+  "/code/":
   [
     "",
   ],
