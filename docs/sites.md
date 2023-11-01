@@ -6,6 +6,8 @@ title: 网址导航
 
 ### yunzai-bot
 
+ [yunzai-plugins](https://gitee.com/yhArcadia/Yunzai-Bot-plugins-index)
+
 ### 常用
 
  [github](https://github.com/emersers/emsrs.doc)
