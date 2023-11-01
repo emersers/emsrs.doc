@@ -10,16 +10,20 @@ export default hopeTheme({
     url: "https://emsrs.site",
   },
   // 关键词: "iconfont", "iconify", "fontawesome", "fontawesome-with-brands"
-  iconAssets: "fontawesome",
+  iconAssets: "fontawesome-with-brands",
   // iconPrefix: "iconfont icon-",
 
   fullscreen: true,
 
-  logo: "/logo.svg",
-
   repo: "emersers/emsrs.doc",
 
   docsDir: "docs",
+
+  navbarLayout: {
+    start: ["Brand"],
+    center: ["Links"],
+    end: ["Language", "Search", "Repo", "Outlook"],
+  },
 
   locales: {
     
@@ -105,9 +109,11 @@ export default hopeTheme({
       playground: {
         presets: ["ts", "vue"],
       },
-      revealjs: {
+      /* revealjs: {
         plugins: ["highlight", "math", "search", "notes", "zoom"],
-      },
+        themes: "auto",
+      }, */
+      revealJs: true,
       stylize: [
         {
           matcher: "Recommended",
