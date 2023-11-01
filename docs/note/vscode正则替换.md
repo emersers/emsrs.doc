@@ -1,5 +1,9 @@
 ---
 title: vscode正则替换
+icon: pen-to-square
+category:
+ - vscode
+ - 正则表达式
 ---
 
 ## 前言
