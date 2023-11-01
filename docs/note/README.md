@@ -1,5 +1,5 @@
 ---
-title: 随手笔记
+title: NOTE
 icon: pen-to-square
 category:
  - vscode

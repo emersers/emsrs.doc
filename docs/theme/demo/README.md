@@ -1,6 +1,5 @@
 ---
-title: 案例展示
-index: false
+title: 案例
 icon: laptop-code
 category:
   - 使用指南
