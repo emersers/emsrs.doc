@@ -4,7 +4,7 @@
   "description": "emsrs'doc",
   "license": "MIT",
   "type": "module",
-  "packageManager": "pnpm@8.10.0",
+  "packageManager": "pnpm@8.10.1",
   "scripts": {
     "docs:build": "vuepress build docs",
     "docs:clean-dev": "vuepress dev docs --clean-cache",
@@ -12,11 +12,16 @@
     "docs:update-package": "pnpm dlx vp-update"
   },
   "devDependencies": {
-    "@vuepress/client": "2.0.0-beta.67",
     "vue": "^3.3.7",
     "vuepress": "2.0.0-beta.67",
-    "vuepress-plugin-search-pro": "2.0.0-beta.239",
-    "vuepress-theme-hope": "2.0.0-beta.238"
+    "@vue/repl": "^2.6.2",
+    "@vuepress/client": "2.0.0-beta.67",
+    "vuepress-theme-hope": "2.0.0-beta.244",
+    "vuepress-plugin-search-pro": "2.0.0-beta.244",
+    "chart.js": "^4.4.0",
+    "echarts": "^5.4.3",
+    "flowchart.ts": "^1.0.1",
+    "katex": "^0.16.9",
+    "mermaid": "^10.6.0"
   }
 }
- 
