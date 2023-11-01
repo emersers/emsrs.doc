@@ -25,4 +25,6 @@ icon: circle-info
 
 - [ ] 完善APP
 
+## [主题相关](../theme/)
+
 咕咕咕~
