@@ -3,14 +3,14 @@ import { navbar } from "vuepress-theme-hope";
 export const zhNavbar = navbar([
   "/",
   {
-    text: "笔记",
-    icon: "font-awesome",
-    link: "/note/",
-  },
-  {
     text: "code",
     icon: "code",
     link: "/code/",
+  },
+  {
+    text: "note",
+    icon: "font-awesome",
+    link: "/note/",
   },
   {
     text: "Bot",
@@ -20,7 +20,7 @@ export const zhNavbar = navbar([
   {
     text: "网址导航",
     icon: "circle-nodes",
-    link: "/sites/",
+    link: "/webnav/",
   },
   {
     text: "APP",
