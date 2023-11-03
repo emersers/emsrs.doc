@@ -1,6 +1,7 @@
 ---
 title: NOTE
 icon: pen-to-square
+index: false
 category:
  - vscode
 ---
