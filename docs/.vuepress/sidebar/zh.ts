@@ -45,8 +45,8 @@ export const zhSidebar = sidebar({
     {
       text: "案例",
       icon: "laptop-code",
-      // collapsible: true,
-      link: "demo.md",
+      collapsible: true,
+      link: "demo/",
       prefix: "demo/",
       children: "structure",
     },

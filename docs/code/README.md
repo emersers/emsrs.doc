@@ -1,6 +1,7 @@
 ---
 title: 代码
 icon: code
+index: false
 category:
  - code
 ---
