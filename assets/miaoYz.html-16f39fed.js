@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper-c27b6911.js";import{o,c as t,a as c}from"./app-31cbcb43.js";const _={},s=c("p",null,"挖个坑先",-1),a=[s];function n(r,l){return o(),t("div",null,a)}const f=e(_,[["render",n],["__file","miaoYz.html.vue"]]);export{f as default};
