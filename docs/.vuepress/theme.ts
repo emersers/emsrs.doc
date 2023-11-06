@@ -13,8 +13,6 @@ export default hopeTheme({
   iconAssets: "fontawesome-with-brands",
   // iconPrefix: "iconfont icon-",
 
-  fullscreen: true,
-
   repo: "emersers/emsrs.doc",
 
   docsDir: "docs",

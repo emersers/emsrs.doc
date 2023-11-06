@@ -1,9 +1,22 @@
 // you can change colors here
-$theme-color: #37ebe8c0;
+$theme-color: rgb(100, 209, 193);
 
+$isDarkmode: enable;
 
-// .vuepress/styles/palette.scss
 $bg-color: (
-  light: rgba(222, 203, 217, 0.79),
+  light: rgb(179, 232, 240),
   dark: #222626, 
 );
+
+.appearance-wrapper{
+  display: none;
+}
+
+.outlook-dropdown{
+  display: flex;
+  min-width: auto;
+}
+
+.outlook-dropdown>*{
+  border: 0px;
+}
