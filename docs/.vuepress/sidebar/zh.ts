@@ -14,14 +14,14 @@ export const zhSidebar = sidebar({
     {
       text: "yunzai-bot",
       icon: "laptop-code",
-      prefix: "yunzai/",
+      prefix: "yz/",
       children: "structure",
       collapsible: true,
     },
     {
       text: "nonebot",
       icon: "laptop-code",
-      prefix: "nonebot/",
+      prefix: "nb/",
       children: "structure",
       collapsible: true,
     },
@@ -57,7 +57,12 @@ export const zhSidebar = sidebar({
   ],
   "/webnav/":
   [
-    "",
+    {
+      text: "网址导航",
+      icon: "laptop-code",
+      link: "README.md",
+      children: "structure",
+  },
   ],
   "/about/":
   [
