@@ -12,7 +12,6 @@ export default hopeTheme({
   // 关键词: "iconfont", "iconify", "fontawesome", "fontawesome-with-brands"
   iconAssets: "fontawesome-with-brands",
   // iconPrefix: "iconfont icon-",
-  favicon: "./public/favicon.ico",
   repo: "emersers/emsrs.doc",
 
   docsDir: "docs",
@@ -24,10 +23,7 @@ export default hopeTheme({
   },
 
   locales: {
-    
-    /**
-     * Chinese locale config
-     */
+    // Chinese locale config
     "/": {
       // navbar
       navbar: zhNavbar,
@@ -46,7 +42,7 @@ export default hopeTheme({
       },
     },
     
-    
+    // English locale config
     "/en/": {
       // navbar
       navbar: enNavbar,
