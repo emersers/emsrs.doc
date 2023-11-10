@@ -12,7 +12,7 @@ export default hopeTheme({
   // 关键词: "iconfont", "iconify", "fontawesome", "fontawesome-with-brands"
   iconAssets: "fontawesome-with-brands",
   // iconPrefix: "iconfont icon-",
-
+  favicon: "./public/favicon.ico",
   repo: "emersers/emsrs.doc",
 
   docsDir: "docs",
