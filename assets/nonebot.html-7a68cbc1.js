@@ -1,1 +1,0 @@
-import{_ as e}from"./plugin-vue_export-helper-c27b6911.js";import{o,c as t,a as n}from"./app-73b05841.js";const s={},c=n("p",null,"this is nonebot docs",-1),_=[c];function r(a,l){return o(),t("div",null,_)}const f=e(s,[["render",r],["__file","nonebot.html.vue"]]);export{f as default};

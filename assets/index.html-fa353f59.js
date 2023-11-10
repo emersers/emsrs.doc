@@ -1,0 +1,1 @@
+import{_ as t}from"./plugin-vue_export-helper-c27b6911.js";import{r as o,o as n,c as r,a,d as c,w as s,b as _}from"./app-0b8e7392.js";const l={};function d(i,m){const e=o("RouterLink");return n(),r("div",null,[a("p",null,[c(e,{to:"/"},{default:s(()=>[_("咕咕咕~~~")]),_:1})])])}const p=t(l,[["render",d],["__file","index.html.vue"]]);export{p as default};
