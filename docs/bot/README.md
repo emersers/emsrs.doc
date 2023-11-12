@@ -6,4 +6,7 @@ category:
 ---
 
 [Yunzai-bot](./yz/)
+
 [nonebot](./nb/)
+
+[抽卡记录](/gacha/)
