@@ -1,6 +1,6 @@
 // you can change colors here
 $theme-color: rgb(100, 209, 193);
-
+$content-width: 960px;
 $isDarkmode: enable;
 
 $bg-color: (
@@ -19,4 +19,8 @@ $bg-color: (
 
 .outlook-dropdown>*{
   border: 0px;
+}
+
+.vp-tab{
+  background:#1824277a;
 }
