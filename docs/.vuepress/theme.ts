@@ -74,6 +74,15 @@ export default hopeTheme({
       author: "emsrs @2023",
       license: "MIT",
     },
+    copyCode: {
+      showInMobile: true,
+    },
+    components: {
+      // 你想使用的组件
+      components: [
+        "BiliBili",
+        ],
+    },
     // You should generate and use your own comment service
     /* comment: {
       provider: "Giscus",
