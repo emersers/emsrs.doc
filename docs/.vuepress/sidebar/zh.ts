@@ -3,7 +3,7 @@ import { sidebar } from "vuepress-theme-hope";
 export const zhSidebar = sidebar({
   "/": [
     "",
-  ],  
+  ],
   "/bot/":
   [
     {
@@ -19,12 +19,10 @@ export const zhSidebar = sidebar({
       collapsible: true,
     },
     {
-      text: "nonebot",
+      text: "抽卡记录",
       icon: "laptop-code",
-      prefix: "nb/",
-      children: "structure",
-      collapsible: true,
-    },
+      link: "/gacha/",
+    },    
   ],
   "/note/":
   [
@@ -69,4 +67,12 @@ export const zhSidebar = sidebar({
     "",
     "sponsor",
   ],
+  "/gacha/":[
+    {
+      text: "抽卡记录",
+      icon: "laptop-code",
+      link: "/gacha/",
+      children: "structure",
+    },
+  ]
 });
