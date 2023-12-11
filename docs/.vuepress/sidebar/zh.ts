@@ -29,7 +29,7 @@ export const zhSidebar = sidebar({
     {
       text: "note",
       icon: "book",
-      link: "README.md",
+      link: "/note/",
       children: "structure",
     }
   ],
