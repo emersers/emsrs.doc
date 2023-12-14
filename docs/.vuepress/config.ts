@@ -18,6 +18,7 @@ export default defineUserConfig({
 
           if (document.hidden) {
             document.title = prefix + CurrentTitle;
+            console.log(document.title);
             isHidden = true;
           } else {
             if (CurrentTitle.startsWith(prefix)) {
