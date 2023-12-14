@@ -13,15 +13,11 @@
   },
   "devDependencies": {
     "@vue/repl": "^3.0.0",
-<<<<<<< HEAD
-<<<<<<< HEAD
+
     "@vuepress/client": "v2.0.0-beta.67",
-=======
     "@vuepress/client": "2.0.0-beta.250",
->>>>>>> 3a9cc34 (modified:   package.json)
-=======
+
     "@vuepress/client": "2.0.0-rc.0",
->>>>>>> 2a50147 (modified:   package.json)
     "chart.js": "^4.4.1",
     "echarts": "^5.4.3",
     "flowchart.ts": "^2.0.0",
@@ -29,16 +25,9 @@
     "mermaid": "^10.6.1",
     "reveal.js": "^5.0.2",
     "vue": "^3.3.11",
-<<<<<<< HEAD
     "vuepress": "v2.0.0-beta.67",
     "vuepress-plugin-search-pro": "2.0.0-beta.246",
     "vuepress-plugin-sitemap2": "2.0.0-beta.246",
     "vuepress-theme-hope": "2.0.0-beta.246"
-=======
-    "vuepress": "2.0.0-rc.0",
-    "vuepress-plugin-search-pro": "2.0.0-beta.244",
-    "vuepress-plugin-sitemap2": "2.0.0-rc.4",
-    "vuepress-theme-hope": "2.0.0-rc.4"
->>>>>>> 3a9cc34 (modified:   package.json)
   }
 }
