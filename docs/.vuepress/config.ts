@@ -15,9 +15,11 @@ export default defineUserConfig({
           const prefix = "多看一眼就会 | ";
           const CurrentTitle = document.title;
           if (document.hidden) {
-            document.title = prefix + document.title;
+            document.title = prefix + Title;
           } else {
-            document.title = CurrentTitle.substring(prefix.length*2);
+            while (str.startsWith(prefix)) {
+              document.title = CurrentTitle.substring(prefix.length*2);
+            }
           }
         });
       `,
