@@ -18,7 +18,7 @@ export default defineUserConfig({
             document.title = prefix + Title;
           } else {
             while (str.startsWith(prefix)) {
-              document.title = CurrentTitle.substring(prefix.length*2);
+              document.title = CurrentTitle.substring(prefix.length);
             }
           }
         });
