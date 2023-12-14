@@ -13,11 +13,15 @@ export default defineUserConfig({
         // 监听页面可见性变化事件
         document.addEventListener("visibilitychange", () => {
           const prefix = "多看一眼就会 | ";
-          const CurrentTitle = document.title;
+          const Title = document.title;
           if (document.hidden) {
-            document.title = prefix + OriginalTitle;
+            document.title = prefix + Title;
           } else {
-            document.title = CurrentTitle.substring(prefix.length*2);
+            const regex = new RegExp(\`^$\{prefix\}\`, "g");
+            while (str.startsWith(prefix)) {
+              Title = Title.replace(regex, "");
+            }
+            document.title = Title;
           }
         });
       `,
