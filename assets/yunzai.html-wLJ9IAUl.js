@@ -1,1 +1,0 @@
-import{_ as e}from"./plugin-vue_export-helper-x3n3nnut.js";import{o as t,c as o,a as c}from"./app-o88JoxIO.js";const n={},_=c("p",null,"挖个坑先",-1),s=[_];function a(r,l){return t(),o("div",null,s)}const m=e(n,[["render",a],["__file","yunzai.html.vue"]]);export{m as default};
