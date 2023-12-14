@@ -6,9 +6,6 @@ export default defineUserConfig({
   base: "/",
 
   head: [
-    // 导入一个外部脚本
-    // ["script", { src: "" }],
-    // // // 添加一段脚本
     [
       "script",
       {},
@@ -16,11 +13,11 @@ export default defineUserConfig({
         // 监听页面可见性变化事件
         document.addEventListener("visibilitychange", () => {
           const prefix = "多看一眼就会 | ";
-          const CurrentTitle = document.title;        
+          const CurrentTitle = document.title;
           if (document.hidden) {
             document.title = prefix + document.title;
           } else {
-            document.title = CurrentTitle.substring(prefix.length);
+            document.title = CurrentTitle.substring(prefix.length*2);
           }
         });
       `,
