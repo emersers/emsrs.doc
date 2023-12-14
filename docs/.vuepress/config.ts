@@ -15,7 +15,6 @@ export default defineUserConfig({
           const prefix = "多看一眼就会 | ";
           const CurrentTitle = document.title;
           let isHidden = false;
-
           if (document.hidden) {
             document.title = prefix + CurrentTitle;
             console.log(document.title);
