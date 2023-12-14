@@ -14,12 +14,17 @@ export default defineUserConfig({
         document.addEventListener("visibilitychange", () => {
           const prefix = "多看一眼就会 | ";
           const CurrentTitle = document.title;
+          let isHidden = false;
+
           if (document.hidden) {
-            document.title = prefix + Title;
+            document.title = prefix + CurrentTitle;
+            isHidden = true;
           } else {
-            while (str.startsWith(prefix)) {
-              document.title = CurrentTitle.substring(prefix.length);
+            if (CurrentTitle.startsWith(prefix)) {
+              isHidden = false;
             }
+            if(!isHidden)
+              document.title = CurrentTitle.substring(prefix.length);
           }
         });
       `,
