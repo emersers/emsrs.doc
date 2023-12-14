@@ -14,10 +14,14 @@
   "devDependencies": {
     "@vue/repl": "^3.0.0",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "@vuepress/client": "v2.0.0-beta.67",
 =======
     "@vuepress/client": "2.0.0-beta.250",
 >>>>>>> 3a9cc34 (modified:   package.json)
+=======
+    "@vuepress/client": "2.0.0-rc.0",
+>>>>>>> 2a50147 (modified:   package.json)
     "chart.js": "^4.4.1",
     "echarts": "^5.4.3",
     "flowchart.ts": "^2.0.0",
