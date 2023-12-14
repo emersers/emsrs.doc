@@ -9,11 +9,11 @@
     "docs:build": "vuepress build docs",
     "docs:clean-dev": "vuepress dev docs --clean-cache",
     "docs:dev": "vuepress dev docs",
-    "docs:update-package": "pnpm dlx vp-update" 
+    "docs:update-package": "pnpm dlx vp-update"
   },
   "devDependencies": {
     "@vue/repl": "^3.0.0",
-    "@vuepress/client": "2.0.0-rc.0",
+    "@vuepress/client": "2.0.0-beta.250",
     "chart.js": "^4.4.1",
     "echarts": "^5.4.3",
     "flowchart.ts": "^2.0.0",
@@ -22,7 +22,7 @@
     "reveal.js": "^5.0.2",
     "vue": "^3.3.11",
     "vuepress": "2.0.0-rc.0",
-    "vuepress-plugin-search-pro": "2.0.0-beta.248",
+    "vuepress-plugin-search-pro": "2.0.0-beta.244",
     "vuepress-plugin-sitemap2": "2.0.0-rc.4",
     "vuepress-theme-hope": "2.0.0-rc.4"
   }
