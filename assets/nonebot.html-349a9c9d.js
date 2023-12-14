@@ -1,1 +1,0 @@
-import{_ as e}from"./plugin-vue_export-helper-c27b6911.js";import{o,c as t,a as n}from"./app-987166c1.js";const c={},s=n("p",null,"This document needs to be improved",-1),_=[s];function r(a,l){return o(),t("div",null,_)}const m=e(c,[["render",r],["__file","nonebot.html.vue"]]);export{m as default};
