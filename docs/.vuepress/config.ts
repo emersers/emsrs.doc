@@ -16,11 +16,11 @@ export default defineUserConfig({
         // 监听页面可见性变化事件
         document.addEventListener("visibilitychange", () => {
           const prefix = "多看一眼就会 | ";
-          const CurrentTitle = document.title;        
+          const OriginalTitle = document.title;
           if (document.hidden) {
-            document.title = prefix + document.title;
+            document.title = prefix + OriginalTitle;
           } else {
-            document.title = CurrentTitle.substring(prefix.length);
+            document.title = OriginalTitle;
           }
         });
       `,
