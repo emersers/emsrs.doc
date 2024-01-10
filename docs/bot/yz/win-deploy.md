@@ -1,5 +1,6 @@
 ---
 title: windows部署
+icon: pen-to-square
 ---
 
 视频教程
