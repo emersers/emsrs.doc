@@ -8,7 +8,7 @@ heroFullScreen: true
 tagline: false
 actions:
   - text: To be Continued →
-    link: ./note/
+    link: ./docs/
     type: primary
 
 bgImageDark: /assets/image/bg.webp

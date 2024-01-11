@@ -21,6 +21,7 @@ export default hopeTheme({
     center: ["Links"],
     end: ["Language", "Search", "Repo", "Outlook"],
   },
+  editLink: false,
 
   locales: {
     // Chinese locale config
@@ -87,6 +88,25 @@ export default hopeTheme({
         "BiliBili",
         ],
     },
+    searchPro: {
+      customFields: [
+        {
+          getter: (page) => page.frontmatter.category,
+          formatter: {
+            "/": "分类：$content",
+            "/en": "Category: $content",
+          },
+        },
+        {
+          getter: (page) => page.frontmatter.tag,
+          formatter: {
+            "/": "标签：$content",
+            "/en": "Tag: $content",
+          },
+        },
+      ],
+    },
+    
     
     // You should generate and use your own comment service
     /* comment: {

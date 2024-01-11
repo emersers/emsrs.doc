@@ -1,27 +1,33 @@
 import { navbar } from "vuepress-theme-hope";
 
 export const zhNavbar = navbar([
+  // home
   "/",
+  // notes
   {
-    text: "code",
-    icon: "code",
-    link: "/code/",
-  },
-  {
-    text: "note",
+    text: "笔记",
     icon: "font-awesome",
-    link: "/note/",
+    link: "/notes/",
   },
+  // docs
   {
-    text: "Bot",
-    icon: "robot",
-    link: "/bot/",
+    text: "docs",
+    icon: "book",
+    link: "/docs/",
   },
+  // sitenav
   {
-    text: "网址导航",
+    text: "站点导航",
     icon: "circle-nodes",
-    link: "/webnav/",
+    link: "/sitenav/",
   },
+  // blog
+  {
+    text: "博客",
+    icon: "link",
+    link: "https://emsrs.site",
+  },
+  // apps
   {
     text: "APP",
     icon: "share-from-square",
