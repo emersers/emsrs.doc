@@ -1,7 +1,7 @@
 ---
-title: 功能
+title: 主题相关
 icon: circle-info
-index: false
+index: true
 ---
 
 ### [项目主页配置](https://theme-hope.vuejs.press/zh/guide/layout/home/)

@@ -1,5 +1,5 @@
 ---
-title: windows部署
+title: Miao-Yunzai部署(windows)
 icon: pen-to-square
 ---
 
