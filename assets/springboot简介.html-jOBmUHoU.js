@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper-x3n3nnut.js";import{o,c as t,a as _}from"./app-sE5eX-Ar.js";const s={},c=_("p",null,"咕咕咕~",-1),n=[c];function r(a,l){return o(),t("div",null,n)}const m=e(s,[["render",r],["__file","springboot简介.html.vue"]]);export{m as default};
