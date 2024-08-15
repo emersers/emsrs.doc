@@ -76,7 +76,7 @@ export default hopeTheme({
       changefreq: "daily",
     },
     copyright: {
-      author: "emsrs @2023",
+      author: "emsrs @2024",
       license: "MIT",
     },
     copyCode: {
