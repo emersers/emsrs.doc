@@ -34,7 +34,7 @@ export default hopeTheme({
 
       // footer
       displayFooter: true,
-      copyright: "copyright© 2023 <a href=\"https://emsrs.site\" target=\"_blank\">emsrs</a>",
+      copyright: "copyright© <a href=\"https://emsrs.site\" target=\"_blank\">emsrs</a> 2024",
       footer: "<a href=\"/about/\">关于</a>",
       
       // page meta
